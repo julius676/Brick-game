@@ -1,6 +1,6 @@
 # Brick Game
 
-A brick-breaker game in C++ with a gtkmm 4 interface, built for the Object-Oriented Programming course at EPFL by [@julius676](https://github.com/julius676) and [@Maurits33](https://github.com/Maurits33).
+A brick-breaker game in C++ with a gtkmm 4 interface, built for the Project-Oriented Programming course at EPFL by [@julius676](https://github.com/julius676) and [@Maurits33](https://github.com/Maurits33).
 
 ![Gameplay screenshot](docs/screenshot.png)
 
