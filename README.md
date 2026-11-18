@@ -4,7 +4,26 @@ The game implements ball collisions and bricks use polymorphism by breaking diff
 
 <img width="1920" height="1205" alt="image" src="https://github.com/user-attachments/assets/849920e0-06c5-45f5-9661-d19a9379a2ec" />
 
-It is possible to start the game with the command : ./project 
-and selecting the level you want to play in the menu open on the left side, I recommend the level test16.txt
-You can start the game by typing "S" on your keyboard and when you run out of balls, you can spawn a new one by right-clicking.
-To run the game, it is required to install gtkmm4
+## Build and run
+
+Requirements: g++ with C++17, pkg-config, gtkmm 4.
+
+```bash
+# Ubuntu / Debian
+sudo apt install build-essential pkg-config libgtkmm-4.0-dev
+
+# macOS (Homebrew)
+brew install gtkmm4 pkg-config
+```
+
+```bash
+cd Brick_Game
+make
+./project
+```
+
+Pick a level in the menu on the left (`test16.txt` is a good one), press **S** to start,
+and **right-click** to spawn a new ball when you run out.
+
+`make tests` opens the game on every level file in `tests/`, one after another.
+`make clean` removes the build files.
