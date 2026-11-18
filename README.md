@@ -1,4 +1,4 @@
-In the context of the POO course in EPFL, @Maurits33 and me made Brick Game in C++. The actual repositery is in private.
+In the context of the POO course in EPFL, @Maurits33 and me made Brick Game in C++. 
 The game works by controlling a paddle with your mouse. The goal of the game is to break all of the bricks.
 The game implements ball collisions and bricks use polymorphism by breaking differently by the type of the brick.
 
